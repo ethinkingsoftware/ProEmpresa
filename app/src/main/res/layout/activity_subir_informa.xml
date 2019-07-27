@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COMPANY REGISTRATION"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                />
+
+
+
+            <EditText
+                android:id="@+id/Text_nombreEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="COMPANY NAME"
+                android:inputType="text"
+                />
+
+
+            <EditText
+                android:id="@+id/Text_nit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PROJECTED YIRR"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:id="@+id/Text_actividad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="BUSINESS ACTIVITY"
+                android:inputType="text"
+                />
+
+
+
+                <EditText
+                    android:id="@+id/Text_fecha1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="FUNDATION DATE"
+                    android:inputType="text"
+                    />
+
+
+
+
+
+            <EditText
+                android:id="@+id/Text_ubicacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="LOCATIONS"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:id="@+id/Text_telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="TELEPHONE"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:id="@+id/Text_correo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="EMAIL"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:id="@+id/Text_representante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="LEGAL REPRESENTATIVE"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:id="@+id/Text_montoI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Minimum collection for Disbursement EUR:"
+                android:inputType="text"
+                />
+
+            <EditText
+                android:id="@+id/Text_montoF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Investments Budget EUR"
+                android:inputType="text"
+                />
+
+
+
+
+            <Button
+                android:id="@+id/Btn_registrar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGISTER AND ADD LOGO"
+                android:layout_gravity="center"/>
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Foto">
+
+
+    <Button
+        android:id="@+id/buttonImage"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="LOGO"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <ImageView
+        android:id="@+id/setPicture"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/buttonImage" />
+
+    <Button
+        android:id="@+id/SubirImagen"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="LOAD LOGO"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/setPicture"
+        />
+
+    <Button
+        android:id="@+id/Menu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="GO TO MENU"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/SubirImagen"
+        />
+
+
+
+
+</LinearLayout>

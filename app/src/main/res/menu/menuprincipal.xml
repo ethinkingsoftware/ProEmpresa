@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_search"
+        android:title="@android:string/ok"
+        />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/opcion1"
+        android:title="LOAD PROFILE"
+        />
+    <item android:id="@+id/opcion2"
+        android:title="CREATE PROFILE"
+        />
+    <item android:id="@+id/opcion3"
+        android:title="CREATE COMPANY"
+        />
+</menu>

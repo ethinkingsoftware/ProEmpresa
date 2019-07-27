@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Transaccion">
+
+    <TextView
+        android:id="@+id/TvUsuario1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/TvEmpresa1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE THE AMOUNT OF THE INVESTMENT"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/sea_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEA FOOD MERCHANDISE" />
+
+    <Button
+        android:id="@+id/steel_construction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STEEL AND CONSTRUCTION MATERIALS" />
+
+    <Button
+        android:id="@+id/jewlery_trade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JEWLERY TRADE" />
+
+    <Button
+        android:id="@+id/pharmaceutical_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHARMACEUTICAL PRODUCTS" />
+
+    <Button
+        android:id="@+id/organic_fertilizer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORGANIC FERTILIZER" />
+
+    <Button
+        android:id="@+id/distribution_agreements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DISTRIBUTION AGREEMENTS" />
+
+</LinearLayout>
